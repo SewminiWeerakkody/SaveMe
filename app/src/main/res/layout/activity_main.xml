@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D86540"
+    android:backgroundTint="#EC6238"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Score TextView -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/hearts" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/score_0"
+        android:textAlignment="center"
+        android:textColor="#4A1707"
+        android:textColorHighlight="#6E2B16"
+        android:textColorHint="#5A1F0C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#973112"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="#E4A341"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:iconSize="22dp" />
+
+</LinearLayout>
